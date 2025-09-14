@@ -44,15 +44,15 @@ A lightweight Python tool to securely delete files and folders by overwriting th
 python main.py
 
 
-### Example Output
+Example Output
 [File] Pass 1/3 - Overwriting secret.txt...
 Progress: 57%
 ✅ File wiped: secret.txt
 📜 Certificate saved as wipe_certificate_1694523456.txt
 
 
+Example certificate:
 
-### Example certificate
 === Secure Wipe Certificate ===
 Date: 2025-09-12 14:33:21
 Target: E:\secret.txt
