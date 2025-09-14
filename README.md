@@ -44,18 +44,33 @@ A lightweight Python tool to securely delete files and folders by overwriting th
 python main.py
 
 
-Example Output
+
+#### Example Output #####
+=== Secure Data Wiper ===
+1. Wipe File
+2. Wipe Folder
+
+Enter choice (1/2): 1
+Enter target file or folder path: examples/demo_folder/secret.txt
+How many passes (recommended: 3): 3
+WARNING: This will permanently destroy data. Type YES to continue: YES
+
 [File] Pass 1/3 - Overwriting secret.txt...
 Progress: 57%
+[File] Pass 2/3 - Overwriting secret.txt...
+Progress: 100%
+[File] Pass 3/3 - Overwriting secret.txt...
+Progress: 100%
+
 ✅ File wiped: secret.txt
 📜 Certificate saved as wipe_certificate_1694523456.txt
 
 
-Example certificate:
 
+### Example Certificate ###
 === Secure Wipe Certificate ===
 Date: 2025-09-12 14:33:21
-Target: E:\secret.txt
+Target: examples/demo_folder/secret.txt
 Passes: 3
 Files wiped: 1
 Bytes overwritten: 2.45 MB
